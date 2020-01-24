@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+</head>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+.container, .header, .nav, .wrapper, .content, .sidebar, .footer {
+    border: 4px solid grey;
+}
+.subcontent1, .subcontent2 {
+    border: 2px solid grey;
+}
+.container {
+    background-color: orange;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+}
+.header, .nav, .wrapper, .content, .sidebar, .footer {
+    background-color: lightgray;
+}
+
+.header {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.nav {
+    padding: 2px;
+}
+.wrapper {
+    padding: 5px;
+    margin-bottom: 5px;
+    /*position: relative;*/
+}
+
+.content, .sidebar {
+    display: inline-block;
+    /*display: table-cell;*/
+    width: 45%;
+    vertical-align: top;
+    padding: 5px;
+    /*position: absolute;*/
+    /*margin-right: 5%;*/
+    /*float: left;*/
+    height: 140px;
+}
+.content {
+    margin-right: 5%;
+    /*clear: right;*/
+}
+.sidebar {
+
+}
+
+.subcontent1, .subcontent2 {
+    padding: 5px;
+}
+.subcontent1 {
+    margin: 5px 0;
+}
+.footer {
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+</style>
+<body>
+
+    <div style="text-align: center">
+        <h4 style="color: red"> Coded by <span style="color: darkgreen">@ Ulan Rakymzhanov</span></h4>
+        <h5>layout/ css practice </h5>
+    </div>
+
+    <p style="text-align: center;">
+        Requirements:  
+            <br>
+            <em> create below grid  </em>
+    </p>
+    <p style="text-align: center;">
+        TODO:  
+            <br>
+            <em> solve removing heights from subcontents  </em>
+    </p>
+
+    <div class="container">
+        <!-- Container -->
+        Container
+        <div class="header">
+            <!-- Header -->
+            Header
+            <div class="nav">
+                <!-- Nav -->
+                Nav
+            </div>
+        </div>
+        <div class="wrapper">
+            <!-- Wrapper -->
+            <p>Wrapper<p>
+            <div class="content">
+                <!-- Content -->
+                Content
+                <div class="subcontent1">
+                    <!-- Subcontent 1 -->
+                    Subcontent 1 
+                </div>
+                <div class="subcontent2">
+                    <!-- Subcontent 2 -->
+                    Subcontent 2
+                </div>
+            </div>
+            <div class="sidebar">
+                <!-- Sidebar -->
+                Sidebar
+            </div>
+        </div>
+        <div class="footer">
+            <!-- Footer -->
+            Footer
+        </div>
+    </div>
+
+</body>
+</html>
