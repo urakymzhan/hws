@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flexbox homework</title>
+</head>
+
+<style>
+        body {
+          background-color: #9B59B6;
+        }
+        * {
+            box-sizing: border-box; 
+        }
+        
+        #rec {
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        #top, #center, #bottom {
+            display: flex;
+            flex-direction: row;
+        }
+        #c1, #c2, #c3, #c4, #c5 {
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 50px;
+
+        }
+        #top {
+            justify-content: space-between;
+        }
+        #bottom {
+            justify-content: space-between;
+        }
+        /* we are losing 2px in border */
+        #center {
+            justify-content: center;
+            margin: 24px 0; /*  198 - 50(top) - 50(center) - 50(bottom) = 48/ 2 = 24px */ 
+        }
+</style>
+<body>
+
+<div style="text-align: center">
+    <h4 style="color: #3498DB"> Coded by <span style="color: yellow">@ Ulan Rakymzhanov</span></h4>
+    <h5>flexbox practice </h5>
+</div>
+
+
+<p style="text-align: center;">
+  Requiremenets: <br>
+   rectangular must be 100px from top and left body<br>
+   rectangular width and height must be 200px<br>
+   each circle diameter should be 50px<br>
+   one should be in the middle and the rest on for corners<br>
+   <em> -- solve with flexbox -- <em>
+</p>
+
+<div id="rec">
+  <div id="top">
+    <span id="c1"></span>
+    <span id="c2"></span>
+  </div>
+  <div id="center">
+    <span id="c3"></span>
+  </div>
+  <div id="bottom">
+    <span id="c4"></span>
+    <span id="c5"></span>
+  </div>
+</div>
+
+
+</body>
+</html>
