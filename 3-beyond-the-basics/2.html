@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+</head>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(231, 76, 60);
+    padding: 3px;
+    color: #fff;
+}
+.left-content, .right-content {
+    display: inline-block;
+    color: rgb(231, 76, 60);
+    vertical-align: top;
+}
+.left-content {
+    width: 80%;
+    padding: 5px;
+}
+.right-content {
+    width: 18%;
+    padding: 10px 5px;
+}
+.bottom-content {
+    background-color: rgba(231, 76, 60, 0.3);
+    padding: 5px;
+    color: rgb(231, 76, 60);
+}
+.content {
+    background-color: #fff;
+    margin: 5px;
+}
+.right-content > div {
+    border: 1px solid rgb(231, 76, 60);
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: rgb(231, 76, 60);
+    color: #fff;
+}
+.right-content > div:hover {
+    background-color: #fff;
+    color: rgb(231, 76, 60);
+}
+.footer {
+    text-align: center;
+    padding: 0 5px; 
+}
+</style>
+<body>
+
+    <div style="text-align: center">
+        <h4 style="color: red"> Coded by <span style="color: darkgreen">@ Ulan Rakymzhanov</span></h4>
+        <h5>layout/ css practice </h5>
+    </div>
+
+    <p style="text-align: center;">
+        Requirements:  
+            <br>
+            <em> create below page  </em>
+    </p>
+
+    <!-- Container -->
+    <div class="container">
+        <h1 style="margin-left: 5px;">Welcome to My Homepage</h1>
+        <p style="margin-left: 5px;">Use the menu to select different Stylesheets</p>
+        <!-- Content -->
+        <div class="content">
+            <!-- left content -->
+            <div class="left-content">
+                <h3>Same Page Different Stylesheets</h3>
+                <p style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  consectetur adipiscing elit, sed do eiusmod tempor incididu magna sed quis nostrud links: <br>
+                    <span style="color: rgb(231, 76, 60)";>Stylesheet 1, Stylesheet 2, Stylesheet 3, Stylesheet 4.</span>
+
+                </p>
+                <h4>No Styles</h4>
+                <p style="color: black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ad minim veniam,  consecte incididunt ut  stylesheet: <br>
+                   <span style="color: rgb(231, 76, 60)";> No Stylesheet</span>
+                </p>
+            </div>
+            <!-- right content -->
+            <div class="right-content">
+                <div>Stylesheet 1</div>
+                <div>Stylesheet 2</div>
+                <div>Stylesheet 3</div>
+                <div>Stylesheet 4</div>
+                <div>No Stylesheet</div>
+            </div>
+             <!-- bottom content -->
+            <div class="bottom-content">
+              <h4>Side-Bar</h4>  
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna sed do eiusmod tempor incididunt ut labore et dolore. </p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.</p>
+        </div>
+    </div>
+
+</body>
+</html>
