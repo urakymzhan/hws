@@ -1,0 +1,502 @@
+body {
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+}
+
+h2, h4 {
+    color: #757575;
+}
+
+.nav {
+    width: 21%;
+    height: 122vh;
+    margin-left: 15%;
+    margin-top: 1vh;
+    background-color: white;
+    padding: 0 1vh;
+    box-shadow: 5px 10px 8px #888888;
+    color: #757575;
+}
+
+.nav:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-right: 5%;
+}
+
+.nav .img {
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.nav img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.nav .skills .w3-container:hover {
+    transform: scale(1.1);
+}
+
+.nav .info {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+}
+
+.fas {
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    color: #009688;
+    top: 1vh;
+}
+
+.info p {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    left: 22%;
+    top: 0.9vh;
+}
+
+/* --------------------------------- */
+ 
+#hr {
+    width: 90%;
+    padding-top: 1vh;
+    margin: 0 auto;
+}
+
+.nav .skills {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.skills .h3 {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    left: 12%;
+    top: 0;
+}
+
+.skills .adobe {
+    position: absolute;
+    top: 8vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.skills .asterisk {
+    position: absolute;
+    top: 0.5vh;
+}
+
+.firstp {
+    margin: 0;
+    position: absolute;
+    top: 5vh;
+}
+
+.secondp {
+    margin: 0;
+    position: absolute;
+    top: 11vh;
+}
+
+.skills .photo {
+    position: absolute;
+    top: 14vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.skills .thirdp {
+    margin: 0;
+    position: absolute;
+    top: 17vh;
+}
+
+.skills .illistrator {
+    position: absolute;
+    top: 20vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.skills .fourthp {
+    margin: 0;
+    position: absolute;
+    top: 23vh;
+}
+
+.skills .media {
+    position: absolute;
+    top: 26vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.nav .lang {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lang .globe {
+    position: absolute;
+    top: 27vh;
+}
+
+.lang .h3 {
+    position: absolute;
+    margin: 0;
+    top: 26.2vh;
+    left: 12%;
+}
+
+.lang .firstp {
+    position: absolute;
+    margin: 0;
+    top: 31vh;
+}
+
+.lang .eng {
+    position: absolute;
+    top: 34vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.lang .secondp {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 37vh;
+}
+
+.lang .tr {
+    position: absolute;
+    top: 40vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.lang .thirdp {
+    position: absolute;
+    margin: 0;
+    top: 43vh;
+}
+
+.lang .sp {
+    position: absolute;
+    top: 46vh;
+    background-color: #009688 !important;
+    border-radius: 20px;
+}
+
+.nav .lang .w3-container:hover {
+    transform: scale(1.1);
+}
+
+/* Side is DONE */
+
+.work {
+    position: absolute;
+    display: inline-block;
+    right: 15%;
+    top: 0;
+    box-shadow: 5px 10px 8px #888888;
+    width: 48%;
+    margin-top: 1vh;
+    height: 60vh;
+    background-color: white;
+}
+
+.work:hover {
+    margin-top: 5%;
+    transform: scale(1.2);
+    transition: 2s;
+    z-index: 2;
+}
+
+.work .suitcase {
+    top: 2vh;
+    left: 2vh;
+}
+
+.work h2 {
+    position: absolute;
+    margin: 0;
+    top: 2vh;
+    left: 10vh;
+}
+
+.work .firsth4 {
+    position: absolute;
+    margin: 0;
+    top: 10vh;
+    left: 3vh;
+}
+
+.work .firstcalendar {
+    position: absolute;
+    margin: 0;
+    top: 14vh;
+    left: 3vh;
+}
+
+.work .firstp {
+    position: absolute;
+    margin: 0;
+    top: 14vh;
+    left: 6vh;
+    color: #009688;
+}
+
+.firstp span {
+    background-color: #009688;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.work .secondp {
+    position: absolute;
+    margin: 0;
+    top: 18vh;
+    left: 3vh;
+}
+
+.work .firsthr {
+    width: 90%;
+    margin-top: 24vh;
+    margin-left: 5%;
+}
+
+.work .secondh4 {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+}
+
+.work .secondcalendar {
+    position: absolute;
+    margin: 0;
+    top: 30vh;
+    left: 3vh;
+}
+
+.work .thirdp {
+    position: absolute;
+    margin: 0;
+    top: 30vh;
+    left: 6vh;
+    color: #009688;
+}
+
+.work .fourthp {
+    position: absolute;
+    margin: 0;
+    top: 34vh;
+    left: 3vh;
+}
+
+.work .secondhr {
+    width: 90%;
+    margin-top: 16vh;
+    margin-left: 5%;
+}
+
+.work .thirdh4 {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+}
+
+.work .thirdcalendar {
+    position: absolute;
+    margin: 0;
+    top: 46vh;
+    left: 3vh;
+}
+
+.work .fifthp {
+    position: absolute;
+    margin: 0;
+    left: 6vh;
+    top: 46vh;
+    color: #009688;
+}
+
+.work .sixthp {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+    top: 50vh;
+}
+
+/* Section one is DONE */
+
+.edu {
+    position: absolute;
+    display: inline-block;
+    right: 15%;
+    top: 58vh;
+    box-shadow: 5px 10px 8px #888888;
+    width: 48%;
+    height: 60vh;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+.edu:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    margin-bottom: 5%;
+    z-index: 2;
+}
+
+.edu .certificate {
+    top: 2vh;
+    left: 2vh;
+}
+
+.edu h2 {
+    position: absolute;
+    margin: 0;
+    top: 2vh;
+    left: 10vh;
+}
+
+.edu .firsth4 {
+    position: absolute;
+    margin: 0;
+    top: 10vh;
+    left: 3vh;
+}
+
+.edu .firstcalendar {
+    position: absolute;
+    margin: 0;
+    top: 14vh;
+    left: 3vh;
+}
+
+.edu .firstp {
+    position: absolute;
+    margin: 0;
+    top: 14vh;
+    left: 6vh;
+    color: #009688;
+}
+
+.edu .secondp {
+    position: absolute;
+    margin: 0;
+    top: 18vh;
+    left: 3vh;
+}
+
+.edu .firsthr {
+    width: 90%;
+    margin-top: 24vh;
+    margin-left: 5%;
+}
+
+.edu .secondh4 {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+}
+
+.edu .secondcalendar {
+    position: absolute;
+    margin: 0;
+    top: 30vh;
+    left: 3vh;
+}
+
+.edu .thirdp {
+    position: absolute;
+    margin: 0;
+    top: 30vh;
+    left: 6vh;
+    color: #009688;
+}
+
+.edu .fourthp {
+    position: absolute;
+    margin: 0;
+    top: 34vh;
+    left: 3vh;
+}
+
+.edu .secondhr {
+    width: 90%;
+    margin-top: 16vh;
+    margin-left: 5%;
+}
+
+.edu .thirdh4 {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+}
+
+.edu .thirdcalendar {
+    position: absolute;
+    margin: 0;
+    top: 46vh;
+    left: 3vh;
+}
+
+.edu .fifthp {
+    position: absolute;
+    margin: 0;
+    left: 6vh;
+    top: 46vh;
+    color: #009688;
+}
+
+.edu .sixthp {
+    position: absolute;
+    margin: 0;
+    left: 3vh;
+    top: 50vh;
+}
+
+/* Section 2 is DONE */
+
+.footer {
+    position: absolute;
+    margin: 0;
+    margin-top: 2vh;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+}
+
+.footer i {
+    padding: 5px;
+}
+
+.footer .social i:hover {
+    opacity: 0.5;
+}
