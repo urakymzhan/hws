@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+    <meta name="author" content="Ulan Rakymzhanov">
+</head>
+
+<style>
+
+    .wrapper {
+        width: 50%;
+        min-height: 360px;
+        margin: auto;
+        background-color: grey;
+    }
+    .left, .mid, .right {
+        width: calc(33.33% - (40px / 3));
+        float: left;
+    }
+    .mid {
+        margin: 0 20px;
+    }
+    .one, .three {
+        min-height: 140px;
+        background-color: blue;
+        margin-bottom: 20px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 140px;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+    .five {
+        background-color: blue;
+        height: 140px;  /*360 - 220 = 140*/
+        text-align: center;
+        vertical-align: middle;
+        line-height: 140px;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+    .two, .four {
+        min-height: 200px;
+        background-color: blue;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .red {
+        background-color: red;
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+
+    <div style="text-align: center">
+        <h5> layout practice </h5>
+    </div>
+
+    <p style="text-align: center;">
+        Requirements:  <br>
+            <em> build below grid </em>
+    </p>
+<br>
+
+<div class="wrapper">
+    <div class="left">
+        <div class="one">1</div>
+        <div class="two">2</div>
+    </div>
+    <div class="mid">
+        <div class="red"></div>
+        <div class="five">5</div>
+    </div>
+    <div class="right">
+        <div class="three">3</div>
+        <div class="four">4</div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+  background-color: lightgray;
+}
+.container{
+  padding: 20px 0px 0px 60px;
+  
+}
+.sidebar{
+  background-color: white;
+  position: relative;
+  left: 100px;
+  width: 30%;
+  height: 1400px;
+  display: inline-block;
+}
+
+.skills, .info{
+  padding-left: 15px;
+}
+
+.picture{
+    width: 100%;
+}
+
+.name{
+  position: relative;
+  bottom: 70px;
+  left: 20px;
+  color: black;
+}
+
+.about{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.fa-briefcase, .fa-home, .fa-envelope, .fa-phone, .fa-asterisk, .fa-globe, .fa-suitcase, .fa-calendar, .fa-certificate{
+  color: SkyBlue;
+}
+
+.skill, .language{
+  color: white;
+  background-color: SkyBlue;
+  text-align: center;
+}
+
+.experience{
+  padding: 50px;
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  background-color: white;
+  width:  50%;
+  height: 540px;
+  display: inline-block;
+  bottom: 688px;
+  color: #696969;
+}
+
+h5{
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.text{
+  padding-left: 8px;
+}
+
+.datec{
+  color: SkyBlue;
+}
+
+.date1{
+  background-color: SkyBlue;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.education{
+  padding: 50px;
+  position: relative;
+  background-color: white;
+  width:  50%;
+  height: 555px;
+  float: right;
+  right: 106px;
+  bottom: 743px;
+  color: #696969;
+}
+
+footer{
+  padding: 15px;
+  clear: both;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  color: white;
+  background-color: SkyBlue;
+}
+
+.datec{
+  color: Skyblue;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.fa{
+  margin: 7px;
+}
+
+body{
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-device-width : 320px)
+  and (max-device-width : 600px) {
+    /* Styles */
+}

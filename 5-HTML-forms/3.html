@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>html forms</title>
+    <!--  font awesome -->
+    <script src="https://use.fontawesome.com/6fd12f8bf3.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" name="Ulan Rakymzhanov">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: auto;
+            width: 40%;
+        }
+        h2{
+            padding: 10px 0;
+        }
+        .submit, .forms {
+            border: 2px solid gray;
+            border-radius: 5px;
+            width: 100%;
+            padding: 20px;
+        }
+        .forms {
+            margin-bottom: 20px;
+        }
+        .submit {
+            background-color: slategray;
+            font-size: 24px;
+        }
+        .forms input {
+            border: none;
+            font-size: 24px;
+            width: 90%;
+        }
+        .submit:hover {
+            cursor: grabbing;
+            background-color: rgb(20, 88, 54);
+            color: white;
+        }
+        i {
+            color: gray;
+        }
+
+
+    </style>
+</head>
+
+    <div style="text-align: center">
+        <h4 style="color: red"> Coded by <span style="color: darkgreen">@ Ulan Rakymzhanov</span></h4>
+        <h5> html forms practice </h5>
+    </div>
+
+    <p style="text-align: center;">
+        Requirements:  <br>
+            <em> create below form </em>
+    </p>
+<br>
+
+<body>
+    <div class="container">
+
+        <h2>CREATE AN ACCOUNT</h2>
+
+        <div class="forms">
+            <input type="text" placeholder="Display name*">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span> 
+        </div>
+        <div class="forms">
+            <input type="emai" placeholder="Email*">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+        <div class="forms">
+            <input type="password" placeholder="Password*">
+            <i class="fa fa-key" aria-hidden="true"></i>
+        </div>
+        <div class="forms">
+            <input type="password" placeholder="Confirm password*">
+            <i class="fa fa-key" aria-hidden="true"></i>
+        </div>
+        <div class="forms">
+            <input type="password" placeholder="Register code*">
+            <i class="fa fa-key" aria-hidden="true"></i>
+        </div>
+        <button name="submit" class="submit">Register</button>
+        
+    </div>
+</body>
+</html>

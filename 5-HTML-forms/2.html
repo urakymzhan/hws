@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://use.fontawesome.com/b60cec5f1c.js"></script>
+  <style>
+    input[type=text]{
+    margin: 10px;
+    padding: 10px 35px;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+  input[type=text]:focus + i{
+    color: dodgerBlue;
+  }
+
+  .row1, .row2 {
+    display: flex;
+  }
+
+  .icon{
+    position: relative;
+  } 
+
+  i {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px 22px;
+    transition: .3s;
+   
+  }
+
+  #disabled {
+    background-color: #aaa;
+  }
+
+  #valid {
+    border: 2px solid green;
+  }
+
+  #invalid {
+    border: 2px solid red;
+  }
+
+  #calendar, #credit {
+  }
+
+
+</style>
+</head>
+
+<body>
+  <div class="row1">
+    <div class="icon">
+      <input type="text" placeholder="Default">
+    </div>
+
+    <div class="icon">
+      <input id="valid" type="text" placeholder="Is valid">
+    </div>
+
+    <div class="icon">
+      <input id="invalid" type="text" placeholder="Is invalid">
+    </div>
+
+    <div class="icon">
+      <input id="disabled" type="text" placeholder="Disabled">
+    </div>
+  </div>
+
+  <div class="row2">
+
+    <div class="icon">
+      <input type="text" placeholder="Search">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      
+    </div>
+    <div class="icon">
+      <input type="text" placeholder="Username">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      
+    </div>
+
+    <div class="icon">
+      <input type="text" placeholder="Birthday" id="calendar" >
+      <i class="fa fa-calendar" aria-hidden="true" ></i>
+      
+    </div>
+
+    <div class="icon">
+      <input type="text" id="credit" placeholder="Credit card">
+      <i class="fa fa-credit-card"  aria-hidden="true"></i>
+      
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

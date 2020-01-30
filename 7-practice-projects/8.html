@@ -1,0 +1,111 @@
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title></title>
+   </head>
+
+    <style>
+        body {
+            margin: 2px;
+            background-color: lightgray;
+        }
+
+        div {
+            background-color: #fff;
+            padding: 4px;
+            margin: 10px 0;
+        }
+        .regular {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+        .regular li {
+            display: inline-block;
+            padding: 15px;
+            box-sizing: border-box;
+            border: none;
+        }
+        ul li:first-child {
+            background-color: red;
+        }
+
+        ul li:hover {
+            background-color: black;
+        }
+
+        /* flexbox */
+
+        .flexbox {
+          display: flex;
+          list-style: none;
+          background-color: rgba(0, 0, 0, 0.6);
+          color: white;
+          padding: 0;
+          margin: 0;
+        }
+
+        .flexbox li {
+          padding: 15px;
+          box-sizing: border-box;
+          border: none;
+        }
+
+        /* float */
+
+        .float-div {
+          background-color: #fff;
+          padding: 0;
+          float: left;
+          width: 100vw;
+        }
+
+        .float {
+          list-style: none;
+          background-color: rgba(0, 0, 0, 0.6);
+          color: white;
+          padding: 0;
+          width: 99vw;
+          float: left;
+          margin: 4px;
+        }
+
+        .float li {
+            float: left;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+<!-- inline-block -->
+<div>
+    <ul class="regular">
+        <li>Home</li><!--
+        --><li>News</li><!--
+        --><li>Contact -- This is inline-block </li><!--
+        --><li>About</li>
+    </ul>
+</div>
+<!--   flexbox -->
+<div>
+    <ul class='flexbox'>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact -- This is Flexbox</li>
+        <li>About</li>
+    </ul>
+</div>
+<!--   float -->
+<div class="float-div">
+    <ul class='float'>
+        <li>Home</li>
+        <li>News</li>
+        <li>Contact -- This is Float</li>
+        <li>About</li>
+    </ul>
+</div>
+</body>
+</html>
+  

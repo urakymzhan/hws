@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://use.fontawesome.com/6fd12f8bf3.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .outerContainer {
+          background: #159FB2;
+          padding: 10px;
+          width: 640px;
+          margin: 0 auto;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header h2 {
+            padding: 5px;
+        }
+        .header h2 {
+          margin: 0;
+        }
+        ​
+        .social {
+            display: flex;
+            justify-content: space-around;
+        }
+        .social i {
+          padding: 10px 40px;
+        }
+        .info {
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .container .l1 {
+            padding-left: 10px;
+        }
+        .forms {
+            padding: 5px;
+            border: 2px solid gray;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        .reg {
+            padding:15px;
+            width: 85%;
+            border: none;
+        }
+        .left {
+            padding: 10px;
+            border-right: 1px solid gray;
+        }
+        .submit {
+            display: inline-block;
+            background-color: rgb(218, 134, 39);
+            color: white;
+        }
+        .btn {
+            padding: 15px 15px 0 0;
+            background-color: rgb(218, 134, 39);
+            color: white;
+            width: 200px;
+            font-size: 14px;
+            border: none;
+            
+            
+        }
+        .container, .forms, .btn, .submit {
+            border-radius: 5px;
+        }
+        .tw {
+            background-color: rgb(64, 180, 233);
+        }
+        .fb {
+            background-color: rgb(38, 54, 124);
+        }
+        .gp {
+            background-color: rgb(134, 23, 23);
+        }
+        .tw, .fb, .gp {
+            color: white;
+            padding: 10px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .submit span {
+            float: right;
+            padding: 15px 10px;
+        }
+        .gray {
+            color: gray;
+        }
+        hr {
+            margin: 20px;
+        }
+        .forms:hover {
+            border-color: rgb(65, 155, 141);
+        }
+        ​
+        .arrow {
+          background: blue;
+          width: 20px;
+          margin: 0;
+          border-radius: 5px;
+          background-color: #DC7633;
+        }
+    </style>
+</head>
+<body>
+
+  <div class="outerContainer">
+        <div class="container">
+          <div class="header">
+            <h2>Join Today</h2><span> <i class="fa fa-lock gray" aria-hidden="true"></i></span>
+        </div>
+          <p class="gray l1">Choose on of the following sigh up methods</pclass>
+          <div class="social">
+            <i class="fa fa-twitter tw" aria-hidden="true">&nbsp;Twitter</i>
+            <i class="fa fa-facebook fb" aria-hidden="true">&nbsp;Facebook</i>
+            <i class="fa fa-google-plus gp" aria-hidden="true">&nbsp;Google+</i>
+          </div>
+          <hr>
+          <p class="gray l1">Or sigh up using Email address</p>
+          <div class="info">
+            <div class="forms">
+                <span><i class="fa fa-user left gray" aria-hidden="true"></i></span> 
+                <input class="reg" type="text" placeholder="Enter Your Full Name">
+            </div>
+            <div class="forms">
+                <i class="fa fa-envelope-o left gray" aria-hidden="true"></i>
+                <input class="reg" type="emai" placeholder="Enter Your Email">
+            </div>
+            <div class="forms">
+                <i class="fa fa-key left gray" aria-hidden="true"></i>
+                <input class="reg" type="password" placeholder="Enter a password...">
+            </div>
+            <div class="submit">
+                <button class="btn">Create My Account</button><span class="arrow"> > </span>
+            </div>   
+        </div>
+    </div>
+  </div>
+​
+
+</body>
+</html>

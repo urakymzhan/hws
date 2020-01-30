@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <title>HTML Forms homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+        body {
+        background-color: green;
+        }
+        #contact {
+            width:30%;
+            background-color: rgb(250, 250, 250);
+            color:grey;
+            padding:20px;
+            margin: auto;   
+        }
+        input {
+            width:90%;
+            height:30px;
+            margin:10px;
+            padding:5px;
+           
+        }
+        #message {
+            height: 200px;
+            display:fixed;
+            align-items: flex-start;
+        }
+        #button {
+            width:94%;
+            
+            color:white;
+            background-color: green;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+<body>
+    <div id="contact"> 
+        <h1>Colorlib Contact Form</h1>
+        <h3>Contact us for custom quote</h3>
+        <form class="form" action="form.html" method="post">
+            
+                <lable for="name"></lable>
+                <input type="text" id="name" placeholder="Your name"/>
+                <br>
+
+                <lable for="email"></lable>
+                <input type="text" id="email" placeholder="Your Email Address"/>
+                <br>
+                <lable for="phone"></lable>
+                <input type="number" id="phone" placeholder="Your Phone Number (Optional)" />
+                <br>
+                <lable for="website"></lable>
+                <input type="text" id="website" placeholder="Your Web Site(Optional)" />
+                <br>
+                <lable for="message"></lable>
+                <input type="text" id="message" placeholder="Type your message here...." maxlength="100"/>
+                <br>
+                <input id="button" type="submit" value="Submit"/>
+        </form>
+        <footer> Designed by <a href="form.html" >Colorlib</a> </footer>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

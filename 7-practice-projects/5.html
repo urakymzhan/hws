@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Practice Projects 5</title>
+  <style>
+    .container{
+      margin: 60px;
+      font-size: 0;
+    }
+
+    .container > div {
+      background-color: LightGray;
+    }
+
+    .header {
+      height: 65px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .footer{
+      height: 50px;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .unequal1, .unequal3 {
+      display: inline-block;
+      height: 200px;
+      width: 20%;
+    }
+
+    .unequal2{
+      display: inline-block;
+      height: 200px;
+      width: calc(100% - 40% - 20px); /*unequal1 + unequal3 + two margins of 10px*/
+      margin: 0 10px;
+    }
+
+    * { 
+        box-sizing: border-box;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box header"></div>
+    <div class="box unequal1"></div>
+    <div class="box unequal2"></div>
+    <div class="box unequal3"></div>
+    <div class="box footer"></div>
+  </div>
+</body>
+</html>
