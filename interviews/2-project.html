@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body{ margin:0; }
+        .box { padding: 10px; color: white; box-sizing:border-box}
+        footer { clear: both;}
+        header, footer{ background-color: #0071C5; height: 40px; }
+        .content { height: calc(100vh - 80px) }
+        .content .box { float:left; height: 100%;}
+        nav, aside{  background-color: #00AEEE;  width: 20%;}
+        article { width: 60%; background-color:gray;float:left; }
+
+        @media only screen and (max-width: 768px) {
+          .content nav.box, .content aside.box{height: 110px; width: 100%; }
+          .content article.box { height: calc(100vh - 300px); width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="box">Header</header>
+<div class="content">
+  <nav class="box">Nav</nav>
+  <article class="box">Article</article>
+  <aside class="box">Aside</aside>
+</div>
+<footer class="box">Footer</footer>
+
+</body>
+</html>
