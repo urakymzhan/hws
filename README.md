@@ -1,5 +1,6 @@
 # hws
-hws html/css
+hws html/css/js/react
+
 
 
 ### TODO
