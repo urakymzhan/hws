@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #ff9800;
+}
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    position: relative; 
+    min-height: 600px;
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arrow {
+    position: relative; 
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    padding: 5px;
+    background: lightgray;
+    opacity: .6;
+}
+
+.image {
+    width: 35px;
+    height: 35px;
+}
+
+.arrow:hover{
+    background-color: gray;
+    border: 1px solid lightgray;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
