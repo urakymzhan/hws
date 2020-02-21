@@ -31,7 +31,7 @@ var addS = function addStyle() {
 
 style.addEventListener('mouseover', addS);
 style.addEventListener('mouseout',  function(addS) {
-    // ideally use this method, not working right now
+    // TODO: ideally use this method, not working right now
     // document.querySelector(".style").removeEventListener('mouseover', 
     //     addS,
     //     false
