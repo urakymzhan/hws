@@ -7,7 +7,7 @@
 
 
 2. Store the result of 1 and again convert height and weight to integer. Then calculate Pokemons BMI. Assume the weight and height are in in kg and meters consequently.
-     <!-- parseInt(), BMI = kg/m2 -->
+     <!-- parseInt(), BMI = kg/m2  or  (703 x lbs)/[in]^2 -->
 
 
 3. Store the name of Pokemon to new variable. Then using new varibale calculate the length (word count) of Pokemon name and make it an upper case.
@@ -32,7 +32,7 @@
      console.log(arr); -->
 
 
-7. Log the names of each type from data. Make sure you see "poison" and "grass" as a result.
+7. Console log the names of each "type" that is inside types array in original data. Make sure you see "poison" and "grass" as a result.
 <!--      for(var i = 0; i < data.types.length; i++) {
           console.log(data.types[i].type.name);
      }
@@ -41,17 +41,17 @@
         console.log(item.type.name);
      }) -->
 
-8. Make sure/check abilites is an array from data.
+8. Make sure/check abilites is an array type. Abilites can be found from same data object.
     <!-- console.log(Array.isArray(data.abilities)); -->
 
 
-9. From abilities array get the last ability and console the name of it.
+9. From abilities array get the last ability(object) and console the name of it.
 
 <!--      var lastAbility = data.abilities.pop();
      console.log(lastAbility.ability.name);  -->  
 
 
-10. Now take that last ability and again put it back to abilities array.
+10. Now take that last ability (object) and again put it back to abilities array.
      <!-- data.abilities.push(lastAbility); -->
 
 
@@ -60,7 +60,7 @@
         console.log(data.base_stat);
      }) -->
 
-12. By storing previous values filter and console the values that above 47.
+12. Store Step 11 values into new array and filter and console the values that above 47.
     
 <!--     var arrData = data.stats.map(function(data) {
         return data.base_stat;
@@ -70,13 +70,13 @@
         return data > 47;
     }) -->
 
-13. Reverse an array that contained base_stat values and return a string combining all these    values.
+13. Reverse an array that contained base_stat values and return a string combining all these values.
 <!--     var resultString = arrData.reverse().join();
     console.log(typeof res);
     console.log(res); -->
 
 
-14. From base_stat values array return/shallow copy only 2 first as an array.
+14. From base_stat values array return/shallow copy only 2 first values as an array.
 
 <!--     var slicedArr = arrData.slice(0,2);
     console.log(slicedArr) -->
@@ -97,7 +97,7 @@
     avatar.src = data.sprites.front_default;
     info.innerHTML = `Height: ${data.height} - Weight: ${data.weight}` -->
 
-16. Console log keys and values of data object. Return can be an array or a string.
+17. Console log keys and values of data object. Return can be an array or a string.
 <!--     var keys = Object.keys(data);
     keys.map(function(key) {
         console.log(key);
